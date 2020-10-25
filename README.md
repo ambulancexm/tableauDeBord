@@ -26,4 +26,18 @@ toutes les notes que j'ai dans la têtes
     en cherchant ce matin repeteur wifi esp8266 j'ai trouvé sur git à cette adresse
     - https://github.com/martin-ger/esp_wifi_repeater
     quelqu'un qui flash se carte esp 8266 et qui configure un répeteur
-    c'est interessant pour augmenter la porté des sondes sur le jardin.  
+    c'est interessant pour augmenter la porté des sondes sur le jardin. 
+    je dois trouver de quoi flasher un esp8266
+
+## flash esp8266 pour repeteur wifi
+
+    https://github.com/espressif/esptool
+    commande utilisée :
+    `esptool.py --port /dev/ttyUSB0  --baud 115200 write_flash -fs detect -fm qio --flash_freq 80m 0x00000 firmware/0x00000.bin 0x02000 firmware/0x02000.bin 0x82000 firmware/0x82000.bin`
+    j'ai eu des soucis jusqu'a changer `-fs detect` qui trouve tout seul la bonne valeur.
+
+    une fois le nodeMcu flashé 
+    il faut se rendre sur 
+        - se connecté sur le wifi `myAP`
+        - l'interface à l'IP `192.168.4.1`
+        - configurer l'interface avec le wifi hote 
