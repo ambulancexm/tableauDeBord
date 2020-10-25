@@ -20,3 +20,10 @@ toutes les notes que j'ai dans la têtes
 
     publish a un retour je vais faire une boucle qui attend le retour pour passer à la suite
     --à tester--
+
+## à la recherche d'un repeteur wifi pas cher
+
+    en cherchant ce matin repeteur wifi esp8266 j'ai trouvé sur git à cette adresse
+    - https://github.com/martin-ger/esp_wifi_repeater
+    quelqu'un qui flash se carte esp 8266 et qui configure un répeteur
+    c'est interessant pour augmenter la porté des sondes sur le jardin.  
