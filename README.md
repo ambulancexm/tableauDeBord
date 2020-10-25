@@ -34,6 +34,7 @@ toutes les notes que j'ai dans la têtes
     https://github.com/espressif/esptool
     commande utilisée :
     `esptool.py --port /dev/ttyUSB0  --baud 115200 write_flash -fs detect -fm qio --flash_freq 80m 0x00000 firmware/0x00000.bin 0x02000 firmware/0x02000.bin 0x82000 firmware/0x82000.bin`
+    le dossier firmware fait partie du depot git vu plus haut
     j'ai eu des soucis jusqu'a changer `-fs detect` qui trouve tout seul la bonne valeur.
 
     une fois le nodeMcu flashé 
