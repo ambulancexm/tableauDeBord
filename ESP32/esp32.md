@@ -8,14 +8,16 @@
 
     ensuite voir ce tuto
 
-    [https://easyelectronicsproject.com/esp32-projects/program-esp32cam-arduino/]
+    [esp32-cam](https://easyelectronicsproject.com/esp32-projects/program-esp32cam-arduino/])
 
 ### RÉSUMÉ DU TUTO
 
-  *  Board: “ESP32 Wrover Module”
-  *  Flash Mode: “QIO”
-  *  Partition Scheme: “Hue APP (3MB No OTA/1MB SPIFFS)”
-  *  Flash Frequency: “40MHz”
-  *  Upload Speed: “115200”
-  *  Core Debug Level: “None”
-  *  Programmer: “AVR ISP”
+  ```json
+    Board: “ESP32 Wrover Module”
+    Flash Mode: “QIO”
+    Partition Scheme: “Hue APP (3MB No OTA/1MB SPIFFS)”
+    Flash Frequency: “40MHz”
+    Upload Speed: “115200”
+    Core Debug Level: “None”
+    Programmer: “AVR ISP”
+    ```
