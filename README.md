@@ -53,3 +53,10 @@ il faut se rendre sur
 ## Installation des caméras esp32
 
 [CHAPITRE ESP32](https://github.com/ambulancexm/tableauDeBord/tree/main/ESP32)
+
+## Gestion du téléchargement par wifi
+
+J'ai découvert OTA sur une revue et le test a été concluant 
+directement.
+Chaque ESP est repertorié sur le réseau et attend une mise à jour.
+
