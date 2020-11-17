@@ -61,4 +61,21 @@ directement.
 Chaque ESP est repertorié sur le réseau et attend une mise à jour.
 [OTA](https://github.com/ambulancexm/tableauDeBord/tree/main/OTA)
 
+## Gestion des websocket avec mosquitto et reactJs
+
+je ferais un post plus tard
+mais l'essentiel est dans le lancement de mosquitto
+avec la commande 
+```sh
+mosquitto -c /etc/mosquitto/conf.d/<le_fichier_de_conf>
+```
+
+ensuite avec  
+```sh
+$ /etc/mosquitto# lsof -i tcp |grep mosquitto
+mosquitto 1244156 mosquitto    5u  IPv4 131221983      0t0  TCP *:1883 (LISTEN)
+mosquitto 1244156 mosquitto    6u  IPv6 131221984      0t0  TCP *:1883 (LISTEN)
+mosquitto 1244156 mosquitto   10u  IPv4 131221986      0t0  TCP *:9001 (LISTEN)
+
+```
 
